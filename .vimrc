@@ -9,7 +9,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+
 
 " Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
 
@@ -48,6 +48,7 @@ augroup json_autocmd
  autocmd FileType json set expandtab
  autocmd FileType json set foldmethod=syntax
 augroup END
+
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'yggdroot/indentline'
@@ -59,6 +60,4 @@ Plugin 'shougo/vimproc'
 Plugin 'quramy/tsuquyomi'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'mikewest/vim-markdown'
-
-
-
+Plugin 'gmarik/Vundle.vim'
